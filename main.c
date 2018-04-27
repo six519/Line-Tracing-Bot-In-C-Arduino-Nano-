@@ -92,6 +92,16 @@ int main() {
                     state = 0;
                 }
             break;
+            case 2:
+                //detected black line at right sensor
+                //rotate left
+                rotate_left();
+                //until center sensor detects black line
+                if((PINB & _BV(PB4)) != 0) {
+                    stop();
+                    state = 0;
+                }
+            break;
             default:
                 //just go forward
                 forward();

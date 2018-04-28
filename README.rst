@@ -7,3 +7,8 @@ Building And Uploading To Arduino
 =================================
 
 `make upload`
+
+Pinout
+======
+
+.. image:: http://ferdinandsilva.com/media/line_tracing.png

@@ -11,4 +11,4 @@ Building And Uploading To Arduino
 Pinout
 ======
 
-.. image:: http://ferdinandsilva.com/media/line_tracing.png
+.. image:: http://ferdinandsilva.com/static/line_tracing.png
